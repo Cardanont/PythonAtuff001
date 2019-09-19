@@ -1,30 +1,15 @@
 import random as r
 import checkifprime as check
 import fileoperation as file
+import importlib
+import productofallother as productOfAll
 
 
 
-def addNumbers(*num):
-    sum = 0
-    for i in num:
-        sum = sum + i
-        print(sum)
+#officeStaff1 = Staff('Basic', 'Yvonne', 0)
 
+#officeStaff1.calculatePay()
 
-def printMemberAge(**age):
-    for i, j in age.items():
-        print("Name = %s, Age = %s" %(i, j))
+#print(officeStaff1.pay)
 
-r.randrange(1, 10)
-
-answer = check.checkIfPrime(13)
-
-print(answer)
-
-    
-printMemberAge(Peter = 5, Jhon = 7, Ivone = 10)
-
-
-#file.WriteFile()
-
-file.ReadFile()
+productOfAll.products([1,2,3,4,5])
