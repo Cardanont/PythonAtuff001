@@ -27,10 +27,16 @@
     <Compile Include="fileoperation.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="methoddemo.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="productofallother.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="PythonStuff001.py" />
+    <Compile Include="selfdemo.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Staff.py">
       <SubType>Code</SubType>
     </Compile>
