@@ -5,6 +5,7 @@ import importlib
 import productofallother as productOfAll
 from Staff import Staff # This is how we import and make instances of a Class file defined at the moment of create a new class file.
 import selfdemo as self # This is how we import and create instances when we just create a module even if we declare a class inside it
+import methoddemo as method
 
 
 
@@ -28,3 +29,9 @@ import selfdemo as self # This is how we import and create instances when we jus
 
 
 #productOfAll.products([1,2,3,4,5])
+
+method.MethodDemo.classM()
+md1 = method.MethodDemo
+md1.classM()
+
+md1.staticM()
